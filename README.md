@@ -1,7 +1,7 @@
 # WebFinger
 
 <dl>
-  <dt>Homepage</dt><dd><a href="http://webfinger.rubyforge.org/">http://webfinger.rubyforge.org/</a></dd>
+  <dt>Homepage</dt><dd><a href="http://code.google.com/p/ruby-webfinger/">http://code.google.com/p/ruby-webfinger/</a></dd>
   <dt>Author</dt><dd><a href="mailto:bobaman@google.com">Bob Aman</a></dd>
   <dt>Copyright</dt><dd>Copyright © 2010 Google, Inc.</dd>
   <dt>License</dt><dd>Apache 2.0</dd>

@@ -8,7 +8,6 @@ require 'rake/testtask'
 require 'rake/rdoctask'
 require 'rake/packagetask'
 require 'rake/gempackagetask'
-require 'rake/contrib/rubyforgepublisher'
 
 begin
   require 'spec/rake/spectask'
@@ -27,14 +26,9 @@ PKG_FILE_NAME      = "#{PKG_NAME}-#{PKG_VERSION}"
 
 RELEASE_NAME       = "REL #{PKG_VERSION}"
 
-RUBY_FORGE_PROJECT = PKG_NAME
-RUBY_FORGE_USER    = 'sporkmonger'
-RUBY_FORGE_PATH    = "/var/www/gforge-projects/#{RUBY_FORGE_PROJECT}"
-RUBY_FORGE_URL     = "http://#{RUBY_FORGE_PROJECT}.rubyforge.org/"
-
 PKG_AUTHOR         = 'Bob Aman'
 PKG_AUTHOR_EMAIL   = 'bob@sporkmonger.com'
-PKG_HOMEPAGE       = RUBY_FORGE_URL
+PKG_HOMEPAGE       = 'http://code.google.com/p/ruby-webfinger/'
 PKG_SUMMARY        = 'An implementation of the WebFinger protocol for Ruby.'
 PKG_DESCRIPTION    = <<-TEXT
 An implementation of the WebFinger protocol for Ruby.
